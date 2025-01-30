@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		F4A3B0D02D4AC4E900A3EE75 /* WeatherDataMock.json in Sources */ = {isa = PBXBuildFile; fileRef = F4A3B0CF2D4AC4E900A3EE75 /* WeatherDataMock.json */; };
+		F4A3B1032D4BB3B300A3EE75 /* Simulator Screenshot - iPhone 16 Plus - 2025-01-30 at 07.15.22.png in Resources */ = {isa = PBXBuildFile; fileRef = F4A3B1022D4BB3B300A3EE75 /* Simulator Screenshot - iPhone 16 Plus - 2025-01-30 at 07.15.22.png */; };
+		F4A3B1042D4BB3B300A3EE75 /* Simulator Screenshot - iPhone 16 Plus - 2025-01-30 at 07.14.56.png in Resources */ = {isa = PBXBuildFile; fileRef = F4A3B1002D4BB3B300A3EE75 /* Simulator Screenshot - iPhone 16 Plus - 2025-01-30 at 07.14.56.png */; };
+		F4A3B1052D4BB3B300A3EE75 /* Simulator Screenshot - iPhone 16 Plus - 2025-01-30 at 07.15.18.png in Resources */ = {isa = PBXBuildFile; fileRef = F4A3B1012D4BB3B300A3EE75 /* Simulator Screenshot - iPhone 16 Plus - 2025-01-30 at 07.15.18.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +35,9 @@
 		F4A3B08C2D49886D00A3EE75 /* NooroTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NooroTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4A3B0962D49886D00A3EE75 /* NooroUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NooroUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4A3B0CF2D4AC4E900A3EE75 /* WeatherDataMock.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = WeatherDataMock.json; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.json; };
+		F4A3B1002D4BB3B300A3EE75 /* Simulator Screenshot - iPhone 16 Plus - 2025-01-30 at 07.14.56.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Simulator Screenshot - iPhone 16 Plus - 2025-01-30 at 07.14.56.png"; sourceTree = "<group>"; };
+		F4A3B1012D4BB3B300A3EE75 /* Simulator Screenshot - iPhone 16 Plus - 2025-01-30 at 07.15.18.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Simulator Screenshot - iPhone 16 Plus - 2025-01-30 at 07.15.18.png"; sourceTree = "<group>"; };
+		F4A3B1022D4BB3B300A3EE75 /* Simulator Screenshot - iPhone 16 Plus - 2025-01-30 at 07.15.22.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Simulator Screenshot - iPhone 16 Plus - 2025-01-30 at 07.15.22.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -93,6 +99,7 @@
 		F4A3B0732D49886B00A3EE75 = {
 			isa = PBXGroup;
 			children = (
+				F4A3B0FF2D4BB39700A3EE75 /* Screenshots */,
 				F4A3B0CF2D4AC4E900A3EE75 /* WeatherDataMock.json */,
 				F4A3B07E2D49886B00A3EE75 /* Nooro */,
 				F4A3B08F2D49886D00A3EE75 /* NooroTests */,
@@ -109,6 +116,16 @@
 				F4A3B0962D49886D00A3EE75 /* NooroUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		F4A3B0FF2D4BB39700A3EE75 /* Screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				F4A3B1002D4BB3B300A3EE75 /* Simulator Screenshot - iPhone 16 Plus - 2025-01-30 at 07.14.56.png */,
+				F4A3B1012D4BB3B300A3EE75 /* Simulator Screenshot - iPhone 16 Plus - 2025-01-30 at 07.15.18.png */,
+				F4A3B1022D4BB3B300A3EE75 /* Simulator Screenshot - iPhone 16 Plus - 2025-01-30 at 07.15.22.png */,
+			);
+			path = Screenshots;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,6 +248,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4A3B1032D4BB3B300A3EE75 /* Simulator Screenshot - iPhone 16 Plus - 2025-01-30 at 07.15.22.png in Resources */,
+				F4A3B1042D4BB3B300A3EE75 /* Simulator Screenshot - iPhone 16 Plus - 2025-01-30 at 07.14.56.png in Resources */,
+				F4A3B1052D4BB3B300A3EE75 /* Simulator Screenshot - iPhone 16 Plus - 2025-01-30 at 07.15.18.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
