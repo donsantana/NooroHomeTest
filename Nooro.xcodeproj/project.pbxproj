@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		F4A3B0D02D4AC4E900A3EE75 /* WeatherDataMock.json in Sources */ = {isa = PBXBuildFile; fileRef = F4A3B0CF2D4AC4E900A3EE75 /* WeatherDataMock.json */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		F4A3B08D2D49886D00A3EE75 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,11 +31,25 @@
 		F4A3B07C2D49886B00A3EE75 /* Nooro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nooro.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4A3B08C2D49886D00A3EE75 /* NooroTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NooroTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4A3B0962D49886D00A3EE75 /* NooroUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NooroUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4A3B0CF2D4AC4E900A3EE75 /* WeatherDataMock.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = WeatherDataMock.json; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.json; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		F4A3B0D22D4AE01100A3EE75 /* Exceptions for "Nooro" folder in "Nooro" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = F4A3B07B2D49886B00A3EE75 /* Nooro */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		F4A3B07E2D49886B00A3EE75 /* Nooro */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				F4A3B0D22D4AE01100A3EE75 /* Exceptions for "Nooro" folder in "Nooro" target */,
+			);
 			path = Nooro;
 			sourceTree = "<group>";
 		};
@@ -75,6 +93,7 @@
 		F4A3B0732D49886B00A3EE75 = {
 			isa = PBXGroup;
 			children = (
+				F4A3B0CF2D4AC4E900A3EE75 /* WeatherDataMock.json */,
 				F4A3B07E2D49886B00A3EE75 /* Nooro */,
 				F4A3B08F2D49886D00A3EE75 /* NooroTests */,
 				F4A3B0992D49886D00A3EE75 /* NooroUITests */,
@@ -236,6 +255,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4A3B0D02D4AC4E900A3EE75 /* WeatherDataMock.json in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -399,6 +419,7 @@
 				DEVELOPMENT_TEAM = 2VMNV5JH5M;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Nooro/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -428,6 +449,7 @@
 				DEVELOPMENT_TEAM = 2VMNV5JH5M;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Nooro/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

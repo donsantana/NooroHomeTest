@@ -1,0 +1,47 @@
+{
+    "location": {
+        "name": "Houston",
+        "region": "Texas",
+        "country": "United States of America",
+        "lat": 29.7631,
+        "lon": -95.3631,
+        "tz_id": "America/Chicago",
+        "localtime_epoch": 1738102403,
+        "localtime": "2025-01-28 16:13"
+    },
+    "current": {
+        "last_updated_epoch": 1738101600,
+        "last_updated": "2025-01-28 16:00",
+        "temp_c": 15.3,
+        "temp_f": 59.5,
+        "is_day": 1,
+        "condition": {
+            "text": "Mist",
+            "icon": "//cdn.weatherapi.com/weather/64x64/day/143.png",
+            "code": 1030
+        },
+        "wind_mph": 4.5,
+        "wind_kph": 7.2,
+        "wind_degree": 106,
+        "wind_dir": "ESE",
+        "pressure_mb": 1018,
+        "pressure_in": 30.05,
+        "precip_mm": 0,
+        "precip_in": 0,
+        "humidity": 88,
+        "cloud": 100,
+        "feelslike_c": 15.3,
+        "feelslike_f": 59.5,
+        "windchill_c": 13.3,
+        "windchill_f": 55.9,
+        "heatindex_c": 14,
+        "heatindex_f": 57.1,
+        "dewpoint_c": 11.8,
+        "dewpoint_f": 53.2,
+        "vis_km": 4,
+        "vis_miles": 2,
+        "uv": 0.4,
+        "gust_mph": 5.6,
+        "gust_kph": 9
+    }
+}
